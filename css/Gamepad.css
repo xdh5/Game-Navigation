@@ -95,6 +95,10 @@ main{
     display: block;
     margin: 0 0 5px 53px;
 }
+.kbd .left .wasd img{
+    display: block;
+    margin: 5px 0 0 5px;
+}
 .kbd .right{
     display: inline-block;
     margin-left: 250px;
@@ -107,8 +111,8 @@ main{
     height: 50px;
     font:  16px bold;
     color: white;
-    background-color: #4CA936
-    
+    background-color: #4CA936;
+    box-shadow: 0px 0px 3px 1px rgba(242,234,242,1);
 }
 .kbd .right .baba{
     display: block;
@@ -117,4 +121,8 @@ main{
 .kbd .right .abab{
     display: inline-block;
     margin-left: 40px;
+}
+.kbd .right .ab img{
+    display: block;
+    margin: 5px 0 0 5px;
 }

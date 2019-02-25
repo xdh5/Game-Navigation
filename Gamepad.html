@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>游戏导航</title>
     <link rel="stylesheet" type="text/css" media="screen" href="css/Gamepad.css">
-    <script src="script/Gamepad.js"></script>
 </head>
 <body>
     <main>
@@ -15,18 +14,43 @@
         </div>
         <div class="kbd">
             <div class="left">
-                <kbd class="wasd">W</kbd>
-                <kbd class="wasd">A</kbd>
-                <kbd class="wasd">S</kbd>
-                <kbd class="wasd">D</kbd>
+                <kbd class="game wasd">
+                    <span>W</span>
+                    <img id="W" height=20px width=20px src="img/game.png">
+                </kbd>
+                <kbd class="game wasd">
+                    <span>A</span>
+                    <img id="A" height=20px width=20px src="img/game.png">
+                </kbd>
+                <kbd class="game wasd">
+                    <span>S</span>
+                    <img id="S" height=20px width=20px src="img/game.png">
+                </kbd>
+                <kbd class="game wasd">
+                    <span>D</span>
+                    <img id="D" height=20px width=20px src="img/game.png">
+                </kbd>
             </div>
             <div class="right">
-                <kbd class="ab baba">B</kbd>
-                <kbd class="ab abab">A</kbd>
-                <kbd class="ab abab">B</kbd>
-                <kbd class="ab baba">A</kbd>
+                <kbd class="game ab baba">
+                    <span>2</span>
+                    <img id="2" height=20px width=20px src="img/game.png">
+                </kbd>
+                <kbd class="game ab abab">
+                    <span>1</span>
+                    <img id="1" height=20px width=20px src="img/game.png">
+                </kbd>
+                <kbd class="game ab abab">
+                    <span>4</span>
+                    <img id="4" height=20px width=20px src="img/game.png">
+                </kbd>
+                <kbd class="game ab baba">
+                    <span>3</span>
+                    <img id="3" height=20px width=20px src="img/game.png">
+                </kbd>
             </div>
         </div>
     </main>
+    <script src="script/Gamepad.js"></script>
 </body>
 </html>
