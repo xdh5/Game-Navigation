@@ -1,7 +1,9 @@
 body{
-    background-color: aqua;
+    background-image: url('../img/background.jpg');
+    background-size: 100% 100%;
     margin: 0;
     padding: 0;
+    opacity: 0.9;
 }
 main{
     position: static;
@@ -12,6 +14,7 @@ main{
     width: 460px;
     height: 240px;
     background: #754343;
+    opacity: 0.9;
     margin: auto;
     left: 0;
     right: 0;
@@ -25,6 +28,7 @@ main{
     width: 310px;
     height: 310px;
     background: #754343;
+    opacity: 0.9;
     border-radius: 50%;
 }
 .border::after{
@@ -34,14 +38,14 @@ main{
     width: 310px;
     height: 310px;
     background: #754343;
+    opacity: 0.9;
     border-radius: 50%;
-    border: 1px solid black;
 }
 .shape{
     position: absolute;
     width: 450px;
     height: 240px;
-    background: #FDCC51;
+    background: #23aaf2;
     margin: auto;
     left: 0;
     right: 0;
@@ -54,7 +58,7 @@ main{
     left:-150px;
     width: 300px;
     height: 300px;
-    background: #FDCC51;
+    background: #23aaf2;
     border-radius: 50%;
 }
 .shape::after{
@@ -63,7 +67,7 @@ main{
     position: absolute;
     width: 300px;
     height: 300px;
-    background: #FDCC51;
+    background: #23aaf2;
     border-radius: 50%;
 }
 .kbd{

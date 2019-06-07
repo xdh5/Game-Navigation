@@ -22,12 +22,14 @@ function icon(webside){
         }
         game[i].onclick = function(){
             var newWebside = prompt('给我一个网址')
-            webside[this.id] = newWebside
-            this.src = "https://"+webside[this.id]+"/favicon.ico"
-            this.onerror = function(){
-                this.src="img/game.png"
+            if(newWebside){
+                webside[this.id] = newWebside
+                this.src = "https://"+webside[this.id]+"/favicon.ico"
+                this.onerror = function(){
+                    this.src="img/game.png"
+                }
+                localStorage.setItem("data",JSON.stringify(webside))
             }
-            localStorage.setItem("data",JSON.stringify(webside))
         }
     }
 }
