@@ -39,7 +39,8 @@ function keyboard(webside){
     document.onkeypress = function(key){
         var userKey = key['key'].toUpperCase()
         if(webside[userKey] != undefined){
-        window.open("https://"+webside[userKey])
+        window.open("https://"+webside[userKey]);
+            windos .open ;
         }
     }
 }
